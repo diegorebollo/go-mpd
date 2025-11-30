@@ -49,7 +49,6 @@ func (m *MPD) Encode() ([]byte, error) {
 
 	// hacks for self-closing tags
 	res := new(bytes.Buffer)
-	res.WriteByte('\n')
 	for {
 		s, err := x.ReadString('\n')
 		if s != "" {
