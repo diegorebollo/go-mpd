@@ -27,6 +27,7 @@ type MPD struct {
 	MinBufferTime              *xsd.Duration `xml:"minBufferTime,attr"`
 	SuggestedPresentationDelay *xsd.Duration `xml:"suggestedPresentationDelay,attr"`
 	TimeShiftBufferDepth       *xsd.Duration `xml:"timeShiftBufferDepth,attr"`
+	MaxSegmentDuration         *xsd.Duration `xml:"maxSegmentDuration,attr"`
 	PublishTime                *xsd.DateTime `xml:"publishTime,attr"`
 	Profiles                   string        `xml:"profiles,attr"`
 	BaseURL                    []*BaseURL    `xml:"BaseURL,omitempty"`
