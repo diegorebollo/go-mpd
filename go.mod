@@ -1,4 +1,4 @@
-module github.com/diegorebllo/go-mpd
+module github.com/diegorebollo/go-mpd
 
 go 1.20
 
